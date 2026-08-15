@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>ANCIENT PLACES OF SRI LANKA | Luxury Heritage & Wildlife Expeditions</title>
+    <meta name="description" content="Discover the ancient kingdoms, majestic waterfalls, and untamed rainforests of Sri Lanka. Book custom luxury tours with Ceylon Heritage Expeditions.">
+    <meta name="keywords" content="Ancient Places of Sri Lanka, Sigiriya, Anuradhapura, Polonnaruwa, Diyaluma, Sinharaja, Sri Lanka Travel Agency, Ceylon Tours">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Announcement Bar -->
+    <div class="top-announcement">
+        <div class="container announcement-inner">
+            <div class="announcement-left">
+                <span class="badge-gold"><i class="fas fa-certificate"></i> SLTDA Licensed Tour Operator</span>
+                <span><i class="fas fa-phone-alt"></i> 24/7 VIP Hotline: <strong>+94 77 123 4567</strong></span>
+                <span class="hide-mobile"><i class="fas fa-envelope"></i> <strong>bookings.ancientlanka@gmail.com</strong></span>
+            </div>
+            <div class="announcement-right">
+                <a href="https://wa.me/94771234567" target="_blank" class="whatsapp-badge">
+                    <i class="fab fa-whatsapp"></i> WhatsApp Direct
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Luxury Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-inner">
+            <a href="#hero-section" class="nav-logo">
+                <div class="logo-emblem">
+                    <i class="fas fa-crown"></i>
+                </div>
+                <div class="logo-text">
+                    <span class="brand-title">ANCIENT PLACES</span>
+                    <span class="brand-sub">OF SRI LANKA • EXPEDITIONS</span>
+                </div>
+            </a>
+
+            <div class="nav-menu" id="nav-menu">
+                <a href="#hero-section" class="nav-link active">Home</a>
+                <a href="#destinations" class="nav-link">Destinations</a>
+                <a href="#waterfalls-section" class="nav-link">Waterfalls</a>
+                <a href="#rainforests-section" class="nav-link">Rainforests</a>
+                <a href="#packages" class="nav-link">Tour Packages</a>
+                <a href="#why-us" class="nav-link">Why Choose Us</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <div class="nav-actions">
+                <a href="https://wa.me/94771234567" target="_blank" class="btn btn-outline-gold hide-mobile">
+                    <i class="fab fa-whatsapp"></i> Chat Now
+                </a>
+                <a href="#contact" class="btn btn-primary-gold">
+                    <i class="fas fa-compass"></i> Book Expedition
+                </a>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Preloader Overlay -->
+    <div id="preloader" class="preloader">
+        <div class="loader-content">
+            <div class="loader-ring">
+                <svg viewBox="0 0 100 100">
+                    <circle class="ring-bg" cx="50" cy="50" r="42"></circle>
+                    <circle id="ring-progress" class="ring-fill" cx="50" cy="50" r="42"></circle>
+                </svg>
+                <div class="loader-percentage" id="loader-percent">0%</div>
+            </div>
+            <div class="loader-brand">ANCIENT PLACES OF SRI LANKA</div>
+            <div class="loader-text">Loading Experience...</div>
+            <div class="loader-bar-wrapper">
+                <div class="loader-bar" id="loader-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==============================================
+         HERO SECTION WITH 240-FRAME SCROLL EXPERIENCE
+    =============================================== -->
+    <section class="hero-scroll-section" id="hero-section">
+        <!-- Canvas Background Viewport (Sticky) -->
+        <div class="canvas-viewport" id="viewport">
+            <canvas id="sequence-canvas"></canvas>
+            <div class="vignette-overlay"></div>
+            <div class="hero-gradient-overlay"></div>
+        </div>
+
+        <!-- Scroll Height Container -->
+        <div id="scroll-track" class="scroll-track"></div>
+
+        <!-- Hero Content Overlay (Appears during scroll) -->
+        <div class="hero-overlay-content" id="hero-overlay-content">
+            <div class="container hero-container">
+                <div class="hero-badge animate-fade">
+                    <span class="gold-pill"><i class="fas fa-landmark"></i> UNESCO HERITAGE & WILDERNESS TRAILS</span>
+                </div>
+                <h1 class="hero-title animate-fade">
+                    {ANCIENT PLACES OF SRI LANKA}
+                </h1>
+                <p class="hero-subtitle animate-fade">
+                    Embark on an unforgettable journey through 2,500+ years of majestic royal kingdoms, sacred rock fortresses, cascading mountain waterfalls & untamed virgin rainforests.
+                </p>
+                <div class="hero-cta-group animate-fade">
+                    <a href="#destinations" class="btn btn-hero-gold">
+                        <i class="fas fa-compass"></i> Explore Sacred Sites
+                    </a>
+                    <a href="#packages" class="btn btn-hero-glass">
+                        <i class="fas fa-route"></i> View Tour Packages
+                    </a>
+                    <a href="https://wa.me/94771234567" target="_blank" class="btn btn-hero-whatsapp">
+                        <i class="fab fa-whatsapp"></i> +94 77 123 4567
+                    </a>
+                </div>
+
+                <!-- Live Scroll Indicator -->
+                <div class="hero-scroll-indicator" id="scroll-hint">
+                    <div class="mouse-icon">
+                        <div class="wheel"></div>
+                    </div>
+                    <span>Scroll to Explore the Visual Experience</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Floating Frame / Video Control Dock -->
+        <div class="floating-dock" id="floating-dock">
+            <div class="dock-progress-wrapper" id="dock-progress-wrapper" title="Click or drag to seek">
+                <div class="dock-progress-bar" id="dock-progress-bar"></div>
+            </div>
+            <div class="dock-info">
+                <span class="frame-counter" id="frame-counter">FRAME 001 / 240</span>
+                <div class="dock-btns">
+                    <button class="autoplay-btn" id="autoplay-btn" title="Toggle Auto Play" aria-label="Toggle Autoplay">
+                        <svg id="play-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                            <polygon points="5,3 19,12 5,21"></polygon>
+                        </svg>
+                        <svg id="pause-icon" class="hidden" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                            <rect x="6" y="4" width="4" height="16"></rect>
+                            <rect x="14" y="4" width="4" height="16"></rect>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============================================
+         STATS & HIGHLIGHTS BAR
+    =============================================== -->
+    <section class="stats-bar-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-monument"></i></div>
+                    <div class="stat-data">
+                        <span class="stat-num">2,500+</span>
+                        <span class="stat-label">Years of Recorded History</span>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-globe-asia"></i></div>
+                    <div class="stat-data">
+                        <span class="stat-num">8 Sites</span>
+                        <span class="stat-label">UNESCO World Heritage Wonders</span>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-water"></i></div>
+                    <div class="stat-data">
+                        <span class="stat-num">400+</span>
+                        <span class="stat-label">Cascading Waterfalls</span>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-award"></i></div>
+                    <div class="stat-data">
+                        <span class="stat-num">100%</span>
+                        <span class="stat-label">Custom Private Chauffeur Tours</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============================================
+         DESTINATIONS EXPLORER SECTION (WITH FILTERS)
+    =============================================== -->
+    <section class="section-padding destinations-section" id="destinations">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag"><i class="fas fa-gem"></i> TIMELESS DESTINATIONS</span>
+                <h2 class="section-title">Explore The Wonders of Sri Lanka</h2>
+                <p class="section-desc">
+                    Immerse yourself in our handpicked collection of sacred ancient citadels, thundering waterfalls, and lush tropical wilderness sanctuaries.
+                </p>
+
+                <!-- Filter Controls & Search -->
+                <div class="filter-wrapper">
+                    <div class="filter-tabs" id="filter-tabs">
+                        <button class="filter-btn active" data-filter="all">
+                            <i class="fas fa-border-all"></i> All Wonders
+                        </button>
+                        <button class="filter-btn" data-filter="ancient">
+                            <i class="fas fa-landmark"></i> Ancient Places (පුරාණ ස්ථාන)
+                        </button>
+                        <button class="filter-btn" data-filter="waterfall">
+                            <i class="fas fa-water"></i> Waterfalls (දිය ඇලි)
+                        </button>
+                        <button class="filter-btn" data-filter="rainforest">
+                            <i class="fas fa-tree"></i> Rainforests (වනාන්තර)
+                        </button>
+                    </div>
+
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="dest-search" placeholder="Search Sigiriya, Dunhinda, Sinharaja...">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Destinations Cards Grid -->
+            <div class="destinations-grid" id="destinations-grid">
+
+                <!-- 1. SIGIRIYA (Ancient) -->
+                <div class="destination-card" data-category="ancient" data-id="sigiriya">
+                    <div class="card-image-wrap">
+                        <img src="assets/sigiriya.jpg" alt="Sigiriya Lion Rock Fortress" loading="lazy">
+                        <div class="card-badge gold-badge"><i class="fas fa-crown"></i> 5th Century Citadel</div>
+                        <div class="card-category-tag">Ancient Place</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-location"><i class="fas fa-map-marker-alt"></i> Matale District, Central Province</div>
+                        <h3 class="card-title">Sigiriya Lion Rock Citadel</h3>
+                        <p class="card-snippet">
+                            The 8th Wonder of the World. A staggering 200m monolithic rock fortress built by King Kashyapa with ancient frescoes, mirror wall & hydraulic water gardens.
+                        </p>
+                        <div class="card-meta">
+                            <span><i class="far fa-clock"></i> 3 - 4 Hours</span>
+                            <span><i class="fas fa-star text-gold"></i> 4.9 (1,420 Reviews)</span>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                <span class="price-label">Guided Tour From</span>
+                                <span class="price-value">$45 <span>/ Person</span></span>
+                            </div>
+                            <button class="btn btn-card-action view-details-btn" data-id="sigiriya">
+                                Explore Details <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. RUWANWELISAYA / ANURADHAPURA (Ancient) -->
+                <div class="destination-card" data-category="ancient" data-id="anuradhapura">
+                    <div class="card-image-wrap">
+                        <img src="assets/ruwanwelisaya.jpg" alt="Ruwanwelisaya Anuradhapura Stupa" loading="lazy">
+                        <div class="card-badge gold-badge"><i class="fas fa-dharmachakra"></i> Sacred Kingdom</div>
+                        <div class="card-category-tag">Ancient Place</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-location"><i class="fas fa-map-marker-alt"></i> Anuradhapura, North Central</div>
+                        <h3 class="card-title">Anuradhapura Sacred Kingdom</h3>
+                        <p class="card-snippet">
+                            The first capital of Sri Lanka. Home to the towering white Ruwanwelisaya stupa, the sacred Jaya Sri Maha Bodhi (oldest documented tree), and giant ancient irrigation reservoirs.
+                        </p>
+                        <div class="card-meta">
+                            <span><i class="far fa-clock"></i> Full Day</span>
+                            <span><i class="fas fa-star text-gold"></i> 4.9 (980 Reviews)</span>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                <span class="price-label">Day Tour From</span>
+                                <span class="price-value">$55 <span>/ Person</span></span>
+                            </div>
+                            <button class="btn btn-card-action view-details-btn" data-id="anuradhapura">
+                                Explore Details <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. POLONNARUWA (Ancient) -->
+                <div class="destination-card" data-category="ancient" data-id="polonnaruwa">
+                    <div class="card-image-wrap">
+                        <img src="assets/polonnaruwa.jpg" alt="Polonnaruwa Gal Vihara Ruins" loading="lazy">
+                        <div class="card-badge gold-badge"><i class="fas fa-landmark"></i> Medieval Capital</div>
+                        <div class="card-category-tag">Ancient Place</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-location"><i class="fas fa-map-marker-alt"></i> Polonnaruwa, North Central</div>
+                        <h3 class="card-title">Polonnaruwa Medieval City</h3>
+                        <p class="card-snippet">
+                            Marvel at masterfully preserved 12th-century ruins, the 7-story Royal Palace, the circular Vatadage, and the colossal rock-carved granite Buddha statues of Gal Vihara.
+                        </p>
+                        <div class="card-meta">
+                            <span><i class="far fa-clock"></i> 4 - 5 Hours</span>
+                            <span><i class="fas fa-star text-gold"></i> 4.8 (850 Reviews)</span>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                <span class="price-label">Guided Tour From</span>
+                                <span class="price-value">$50 <span>/ Person</span></span>
+                            </div>
+                            <button class="btn btn-card-action view-details-btn" data-id="polonnaruwa">
+                                Explore Details <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. DAMBULLA CAVE TEMPLE (Ancient) -->
+                <div class="destination-card" data-category="ancient" data-id="dambulla">
+                    <div class="card-image-wrap">
+                        <img src="assets/dambulla.jpg" alt="Dambulla Golden Cave Temple" loading="lazy">
+                        <div class="card-badge gold-badge"><i class="fas fa-gopuram"></i> UNESCO Cave Temple</div>
+                        <div class="card-category-tag">Ancient Place</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-location"><i class="fas fa-map-marker-alt"></i> Dambulla, Central Province</div>
+                        <h3 class="card-title">Dambulla Golden Cave Temple</h3>
+                        <p class="card-snippet">
+                            The largest and best-preserved cave temple complex in Sri Lanka, boasting 5 sanctuary caves adorned with over 150 Buddha statues and 2,100 sq meters of ancient ceiling murals.
+                        </p>
+                        <div class="card-meta">
+                            <span><i class="far fa-clock"></i> 2 - 3 Hours</span>
+                            <span><i class="fas fa-star text-gold"></i> 4.9 (1,120 Reviews)</span>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                <span class="price-label">Tour Add-on</span>
+                                <span class="price-value">$35 <span>/ Person</span></span>
+                            </div>
+                            <button class="btn btn-card-action view-details-btn" data-id="dambulla">
+                                Explore Details <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. TEMPLE OF THE SACRED TOOTH RELIC (Ancient) -->
+                <div class="destination-card" data-category="ancient" data-id="kandy">
+                    <div class="card-image-wrap">
+                        <img src="assets/kandy_temple.jpg" alt="Temple of the Tooth Kandy" loading="lazy">
+                        <div class="card-badge gold-badge"><i class="fas fa-peace"></i> Sacred Relic</div>
+                        <div class="card-category-tag">Ancient Place</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-location"><i class="fas fa-map-marker-alt"></i> Kandy, Hill Country</div>
+                        <h3 class="card-title">Temple of the Tooth (Sri Dalada Maligawa)</h3>
+                        <p class="card-snippet">
+                            Nestled in the lush hills of Kandy, this golden-roofed royal temple houses the sacred tooth relic of Gautama Buddha, the supreme symbol of Sri Lankan sovereignty.
+                        </p>
+                        <div class="card-meta">
+                            <span><i class="far fa-clock"></i> 2 - 3 Hours</span>
+                            <span><i class="fas fa-star text-gold"></i> 4.9 (1,850 Reviews)</span>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                <span class="price-label">Tour From</span>
+                                <span class="price-value">$40 <span>/ Person</span></span>
+                            </div>
+                            <button class="btn btn-card-action view-details-btn" data-id="kandy">
+                                Explore Details <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. GALLE DUTCH FORT (Ancient) -->
+                <div class="destination-card" data-category="ancient" data-id="galle">
+                    <div class="card-image-wrap">
+                        <img src="assets/galle_fort.jpg" alt="Galle Fort Oceanfront Ramparts" loading="lazy">
+                        <div class="card-badge gold-badge"><i class="fas fa-shield-alt"></i> Maritime Citadel</div>
+                        <div class="card-category-tag">Ancient Place</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-location"><i class="fas fa-map-marker-alt"></i> Galle, Southern Coast</div>
+                        <h3 class="card-title">Galle Dutch Maritime Fort</h3>
+                        <p class="card-snippet">
+                            A living 16th-century fortress blending European architecture and South Asian traditions. Walk along the historic stone bastions overlooking the turquoise Indian Ocean.
+                        </p>
+                        <div class="card-meta">
+                            <span><i class="far fa-clock"></i> Half / Full Day</span>
+                            <span><i class="fas fa-star text-gold"></i> 4.8 (1,340 Reviews)</span>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                <span class="price-label">Day Trip From</span>
+                                <span class="price-value">$50 <span>/ Person</span></span>
+                            </div>
+                            <button class="btn btn-card-action view-details-btn" data-id="galle">
+                                Explore Details <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7. DIYALUMA FALLS (Waterfall) -->
+                <div class="destination-card" data-category="waterfall" data-id="diyaluma">
+                    <div class="card-image-wrap">
+                        <img src="assets/diyaluma.jpg" alt="Diyaluma Waterfall" loading="lazy">
+                        <div class="card-badge blue-badge"><i class="fas fa-water"></i> 220m Height</div>
+                        <div class="card-category-tag">Waterfall</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-location"><i class="fas fa-map-marker-alt"></i> Koslanda, Badulla District</div>
+                        <h3 class="card-title">Diyaluma Waterfall & Rock Pools</h3>
+                        <p class="card-snippet">
+                            Sri Lanka's 2nd highest waterfall. Famous worldwide for its natural clifftop infinity rock pools at the upper falls where adventurers can swim with breathtaking vistas.
+                        </p>
+                        <div class="card-meta">
+                            <span><i class="far fa-clock"></i> 4 - 5 Hours Hike</span>
+                            <span><i class="fas fa-star text-gold"></i> 4.9 (760 Reviews)</span>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                <span class="price-label">Trek Tour From</span>
+                                <span class="price-value">$45 <span>/ Person</span></span>
+                            </div>
+                            <button class="btn btn-card-action view-details-btn" data-id="diyaluma">
+                                Explore Details <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 8. DUNHINDA FALLS (Waterfall) -->
+                <div class="destination-card" data-category="waterfall" data-id="dunhinda">
+                    <div class="card-image-wrap">
+                        <img src="assets/dunhinda.jpg" alt="Dunhinda Smoky Waterfall" loading="lazy">
+                        <div class="card-badge blue-badge"><i class="fas fa-smog"></i> The Smoky Fall</div>
+                        <div class="card-category-tag">Waterfall</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-location"><i class="fas fa-map-marker-alt"></i> Badulla, Uva Province</div>
+                        <h3 class="card-title">Dunhinda Waterfall (දුන්හිඳ)</h3>
+                        <p class="card-snippet">
+                            Known as the "Smoky Fall" due to the perpetual veil of water vapour mist created as the river leaps 64 meters into a massive canyon pool surrounded by untouched jungle.
+                        </p>
+                        <div class="card-meta">
+                            <span><i class="far fa-clock"></i> 3 Hours</span>
+                            <span><i class="fas fa-star text-gold"></i> 4.8 (620 Reviews)</span>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                <span class="price-label">Trek Tour From</span>
+                                <span class="price-value">$35 <span>/ Person</span></span>
+                            </div>
+                            <button class="btn btn-card-action view-details-btn" data-id="dunhinda">
+                                Explore Details <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 9. RAVANA FALLS (Waterfall) -->
+                <div class="destination-card" data-category="waterfall" data-id="ravana">
+                    <div class="card-image-wrap">
+                        <img src="assets/ravana_falls.jpg" alt="Ravana Falls in Ella" loading="lazy">
+                        <div class="card-badge blue-badge"><i class="fas fa-mountain"></i> Ella Highlands</div>
+                        <div class="card-category-tag">Waterfall</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-location"><i class="fas fa-map-marker-alt"></i> Ella, Badulla District</div>
+                        <h3 class="card-title">Ravana Falls & Caves (රාවණා ඇල්ල)</h3>
+                        <p class="card-snippet">
+                            Steeped in Ramayana mythology, this wild tiered cataract drops over concave rock outcrops. Legend says King Ravana hid Princess Sita in the subterranean caves behind the falls.
+                        </p>
+                        <div class="card-meta">
+                            <span><i class="far fa-clock"></i> 2 Hours</span>
+                            <span><i class="fas fa-star text-gold"></i> 4.7 (910 Reviews)</span>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                <span class="price-label">Ella Safari Tour</span>
+                                <span class="price-value">$30 <span>/ Person</span></span>
+                            </div>
+                            <button class="btn btn-card-action view-details-btn" data-id="ravana">
+                                Explore Details <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 10. BAMBARAKANDA FALLS (Waterfall) -->
+                <div class="destination-card" data-category="waterfall" data-id="bambarakanda">
+                    <div class="card-image-wrap">
+                        <img src="assets/bambarakanda.jpg" alt="Bambarakanda Tallest Waterfall" loading="lazy">
+                        <div class="card-badge blue-badge"><i class="fas fa-arrow-up"></i> 263m Tallest</div>
+                        <div class="card-category-tag">Waterfall</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-location"><i class="fas fa-map-marker-alt"></i> Kalupahana, Central Highlands</div>
+                        <h3 class="card-title">Bambarakanda Falls (බඹරකන්ද)</h3>
+                        <p class="card-snippet">
+                            Sri Lanka's highest waterfall, plummeting 263 meters through an evergreen pine forest valley. A secluded haven for nature lovers and landscape photographers.
+                        </p>
+                        <div class="card-meta">
+                            <span><i class="far fa-clock"></i> 3 - 4 Hours</span>
+                            <span><i class="fas fa-star text-gold"></i> 4.8 (540 Reviews)</span>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                <span class="price-label">Pine Trek From</span>
+                                <span class="price-value">$40 <span>/ Person</span></span>
+                            </div>
+                            <button class="btn btn-card-action view-details-btn" data-id="bambarakanda">
+                                Explore Details <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 11. SINHARAJA RAINFOREST (Rainforest) -->
+                <div class="destination-card" data-category="rainforest" data-id="sinharaja">
+                    <div class="card-image-wrap">
+                        <img src="assets/sinharaja.jpg" alt="Sinharaja UNESCO Primary Rainforest" loading="lazy">
+                        <div class="card-badge green-badge"><i class="fas fa-leaf"></i> UNESCO Biosphere</div>
+                        <div class="card-category-tag">Rainforest</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-location"><i class="fas fa-map-marker-alt"></i> Sabaragamuwa / Southern</div>
+                        <h3 class="card-title">Sinharaja Virgin Rain Forest (සිංහරාජය)</h3>
+                        <p class="card-snippet">
+                            The country's last viable area of primary tropical rainforest. Home to 95% of Sri Lanka’s endemic birds, rare amphibians, crystal jungle streams, and ancient medicinal flora.
+                        </p>
+                        <div class="card-meta">
+                            <span><i class="far fa-clock"></i> Full Day Trek</span>
+                            <span><i class="fas fa-star text-gold"></i> 4.9 (1,280 Reviews)</span>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                <span class="price-label">Guided Trek From</span>
+                                <span class="price-value">$60 <span>/ Person</span></span>
+                            </div>
+                            <button class="btn btn-card-action view-details-btn" data-id="sinharaja">
+                                Explore Details <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 12. KNUCKLES MOUNTAIN RANGE (Rainforest) -->
+                <div class="destination-card" data-category="rainforest" data-id="knuckles">
+                    <div class="card-image-wrap">
+                        <img src="assets/knuckles.jpg" alt="Knuckles Mountain Range Cloud Forest" loading="lazy">
+                        <div class="card-badge green-badge"><i class="fas fa-mountain"></i> Cloud Forest</div>
+                        <div class="card-category-tag">Rainforest</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-location"><i class="fas fa-map-marker-alt"></i> Matale / Kandy Districts</div>
+                        <h3 class="card-title">Knuckles Conservation Forest (නකල්ස්)</h3>
+                        <p class="card-snippet">
+                            A breathtaking UNESCO mountain wilderness resembling a clenched fist. Features mist-shrouded cloud forests, hidden pygmy forests, wild rivers, and 34 distinct peaks.
+                        </p>
+                        <div class="card-meta">
+                            <span><i class="far fa-clock"></i> 1 - 2 Days Trek</span>
+                            <span><i class="fas fa-star text-gold"></i> 4.9 (890 Reviews)</span>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                <span class="price-label">Expedition From</span>
+                                <span class="price-value">$75 <span>/ Person</span></span>
+                            </div>
+                            <button class="btn btn-card-action view-details-btn" data-id="knuckles">
+                                Explore Details <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 13. HORTON PLAINS & WORLD'S END (Rainforest/Wilderness) -->
+                <div class="destination-card" data-category="rainforest" data-id="horton">
+                    <div class="card-image-wrap">
+                        <img src="assets/horton_plains.jpg" alt="Horton Plains World's End Plateau" loading="lazy">
+                        <div class="card-badge green-badge"><i class="fas fa-cloud-sun"></i> Montane Plateau</div>
+                        <div class="card-category-tag">Rainforest</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-location"><i class="fas fa-map-marker-alt"></i> Nuwara Eliya, Central Highlands</div>
+                        <h3 class="card-title">Horton Plains & World's End (හෝර්ටන්)</h3>
+                        <p class="card-snippet">
+                            An ethereal high-altitude plateau 2,100m above sea level ending abruptly at "World's End" — a sheer 870m vertical precipice with Baker's Falls cascading below.
+                        </p>
+                        <div class="card-meta">
+                            <span><i class="far fa-clock"></i> 4 Hours Trek</span>
+                            <span><i class="fas fa-star text-gold"></i> 4.9 (1,650 Reviews)</span>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                <span class="price-label">Safari & Trek</span>
+                                <span class="price-value">$65 <span>/ Person</span></span>
+                            </div>
+                            <button class="btn btn-card-action view-details-btn" data-id="horton">
+                                Explore Details <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 14. YALA WILDLIFE SANCTUARY (Wilderness) -->
+                <div class="destination-card" data-category="rainforest" data-id="yala">
+                    <div class="card-image-wrap">
+                        <img src="assets/yala.jpg" alt="Yala National Park Safari" loading="lazy">
+                        <div class="card-badge green-badge"><i class="fas fa-paw"></i> Leopard Sanctuary</div>
+                        <div class="card-category-tag">Wilderness</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-location"><i class="fas fa-map-marker-alt"></i> Southern & Uva Provinces</div>
+                        <h3 class="card-title">Yala National Park (යාල වනෝද්‍යානය)</h3>
+                        <p class="card-snippet">
+                            The premier wildlife park in Sri Lanka boasting the world's highest concentration of wild leopards, herds of Asian elephants, sloth bears, crocodiles, and exotic birds.
+                        </p>
+                        <div class="card-meta">
+                            <span><i class="far fa-clock"></i> 4x4 Jeep Safari</span>
+                            <span><i class="fas fa-star text-gold"></i> 4.9 (2,100 Reviews)</span>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                <span class="price-label">4x4 Safari From</span>
+                                <span class="price-value">$70 <span>/ Person</span></span>
+                            </div>
+                            <button class="btn btn-card-action view-details-btn" data-id="yala">
+                                Explore Details <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============================================
+         FEATURED TOUR PACKAGES
+    =============================================== -->
+    <section class="section-padding packages-section" id="packages">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag"><i class="fas fa-suitcase-rolling"></i> ALL-INCLUSIVE EXPEDITIONS</span>
+                <h2 class="section-title">Curated Agency Tour Packages</h2>
+                <p class="section-desc">
+                    Hand-crafted multi-day itineraries designed for ultimate comfort, featuring private luxury AC transport, dedicated heritage chauffeur guides, boutique hotels, and all entry passes.
+                </p>
+            </div>
+
+            <div class="packages-grid">
+
+                <!-- Package 1 -->
+                <div class="package-card">
+                    <div class="package-header">
+                        <span class="package-tag">Most Popular</span>
+                        <h3 class="package-name">7-Day Royal Kingdoms & Heritage Trail</h3>
+                        <p class="package-subtitle">The Complete Cultural Golden Triangle</p>
+                        <div class="package-price">
+                            <span class="currency">$</span><span class="amount">450</span>
+                            <span class="duration">/ Person (All-Inclusive)</span>
+                        </div>
+                    </div>
+                    <div class="package-body">
+                        <ul class="package-features">
+                            <li><i class="fas fa-check-circle"></i> Sigiriya Rock Fortress & Frescoes</li>
+                            <li><i class="fas fa-check-circle"></i> Sacred Anuradhapura & Ruwanwelisaya</li>
+                            <li><i class="fas fa-check-circle"></i> Polonnaruwa Ancient City & Gal Vihara</li>
+                            <li><i class="fas fa-check-circle"></i> Dambulla Golden Cave Murals</li>
+                            <li><i class="fas fa-check-circle"></i> Kandy Temple of the Tooth Relic</li>
+                            <li><i class="fas fa-check-circle"></i> 4/5-Star Boutique Hotels with Breakfast</li>
+                            <li><i class="fas fa-check-circle"></i> Private Luxury AC Vehicle & English Chauffeur</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-package-gold select-package-btn" data-pkg="7-Day Royal Kingdoms & Heritage Trail">
+                            Book This Package <i class="fas fa-calendar-check"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Package 2 -->
+                <div class="package-card featured-package">
+                    <div class="package-ribbon">VIP Choice</div>
+                    <div class="package-header">
+                        <span class="package-tag">Nature & Adventure</span>
+                        <h3 class="package-name">5-Day Cascades & Cloud Forest Trek</h3>
+                        <p class="package-subtitle">Waterfalls & High Altitude Wilderness</p>
+                        <div class="package-price">
+                            <span class="currency">$</span><span class="amount">380</span>
+                            <span class="duration">/ Person (All-Inclusive)</span>
+                        </div>
+                    </div>
+                    <div class="package-body">
+                        <ul class="package-features">
+                            <li><i class="fas fa-check-circle"></i> Diyaluma Clifftop Rock Pools Swim</li>
+                            <li><i class="fas fa-check-circle"></i> Dunhinda & Ravana Falls Trekking</li>
+                            <li><i class="fas fa-check-circle"></i> Knuckles Mountain Cloud Forest Hike</li>
+                            <li><i class="fas fa-check-circle"></i> Horton Plains & World's End Sunrise</li>
+                            <li><i class="fas fa-check-circle"></i> Scenic Hill Country Tea Plantations</li>
+                            <li><i class="fas fa-check-circle"></i> Mountain Eco Lodges & Local Gourmet Meals</li>
+                            <li><i class="fas fa-check-circle"></i> Certified Wilderness Guide & 4x4 Support</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-package-gold select-package-btn" data-pkg="5-Day Cascades & Cloud Forest Trek">
+                            Book This Package <i class="fas fa-calendar-check"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Package 3 -->
+                <div class="package-card">
+                    <div class="package-header">
+                        <span class="package-tag">Ultimate Journey</span>
+                        <h3 class="package-name">10-Day Grand Ceylon Signature Expedition</h3>
+                        <p class="package-subtitle">Sacred Citadels + Rainforest + Safari + Coast</p>
+                        <div class="package-price">
+                            <span class="currency">$</span><span class="amount">820</span>
+                            <span class="duration">/ Person (All-Inclusive)</span>
+                        </div>
+                    </div>
+                    <div class="package-body">
+                        <ul class="package-features">
+                            <li><i class="fas fa-check-circle"></i> Full Cultural Triangle (Sigiriya, Anuradhapura)</li>
+                            <li><i class="fas fa-check-circle"></i> Sinharaja Primary Rainforest Trek</li>
+                            <li><i class="fas fa-check-circle"></i> Yala National Park Leopard Jeep Safari</li>
+                            <li><i class="fas fa-check-circle"></i> Diyaluma & Bambarakanda Waterfalls</li>
+                            <li><i class="fas fa-check-circle"></i> Galle Dutch Fort Oceanfront Sunset</li>
+                            <li><i class="fas fa-check-circle"></i> 5-Star Luxury Heritage Resorts & Spas</li>
+                            <li><i class="fas fa-check-circle"></i> 24/7 VIP Chauffeur Concierge & Airport Pickups</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-package-gold select-package-btn" data-pkg="10-Day Grand Ceylon Signature Expedition">
+                            Book This Package <i class="fas fa-calendar-check"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============================================
+         WHY CHOOSE US / AGENCY TRUST
+    =============================================== -->
+    <section class="section-padding why-us-section" id="why-us">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag"><i class="fas fa-shield-alt"></i> WHY TRAVEL WITH US</span>
+                <h2 class="section-title">The Premier Ceylon Travel Authority</h2>
+                <p class="section-desc">
+                    Over 12 years of crafting unforgettable, tailor-made luxury journeys for global travelers across Sri Lanka's most sacred and wild destinations.
+                </p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-id-card-alt"></i></div>
+                    <h3>Government Licensed</h3>
+                    <p>Official Sri Lanka Tourism Development Authority (SLTDA) certified tour operator with comprehensive travel insurance and licensed guides.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-car-side"></i></div>
+                    <h3>Private Luxury Transport</h3>
+                    <p>Travel in utmost comfort with late-model, air-conditioned executive sedans, SUVs, and luxury vans with complimentary Wi-Fi and chilled refreshments.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-user-graduate"></i></div>
+                    <h3>Expert Historian Guides</h3>
+                    <p>Our certified national guides and multilingual chauffeurs bring ancient history to life with captivating stories, folklore, and local insights.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-sliders-h"></i></div>
+                    <h3>100% Tailor-Made</h3>
+                    <p>Every single itinerary is completely customizable to match your exact pace, interests, budget, and travel dates with zero hidden fees.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============================================
+         CONTACT & BOOKING INQUIRY SECTION
+    =============================================== -->
+    <section class="section-padding contact-section" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+
+                <!-- Left Column: Agency Contact Information -->
+                <div class="contact-info-panel">
+                    <span class="section-tag"><i class="fas fa-headset"></i> GET IN TOUCH</span>
+                    <h2 class="contact-title">Plan Your Dream Sri Lankan Expedition</h2>
+                    <p class="contact-lead">
+                        Speak directly with our dedicated heritage travel specialists. We respond within 15 minutes to help customize your perfect itinerary.
+                    </p>
+
+                    <div class="contact-cards-list">
+                        <!-- Phone & Hotline -->
+                        <div class="contact-card">
+                            <div class="c-icon"><i class="fas fa-phone-alt"></i></div>
+                            <div class="c-details">
+                                <span class="c-label">24/7 Hotline & Direct Call</span>
+                                <a href="tel:+94771234567" class="c-val">+94 77 123 4567</a>
+                                <a href="tel:+94112345678" class="c-sub">+94 11 234 5678 (Colombo Office)</a>
+                            </div>
+                        </div>
+
+                        <!-- WhatsApp Direct -->
+                        <div class="contact-card whatsapp-card">
+                            <div class="c-icon"><i class="fab fa-whatsapp"></i></div>
+                            <div class="c-details">
+                                <span class="c-label">Instant WhatsApp Chat</span>
+                                <a href="https://wa.me/94771234567" target="_blank" class="c-val">+94 77 123 4567</a>
+                                <span class="c-sub">Online Now • Instant Reply</span>
+                            </div>
+                        </div>
+
+                        <!-- Official Gmail -->
+                        <div class="contact-card">
+                            <div class="c-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="c-details">
+                                <span class="c-label">Official Gmail & Inquiries</span>
+                                <a href="mailto:bookings.ancientlanka@gmail.com" class="c-val">bookings.ancientlanka@gmail.com</a>
+                                <a href="mailto:info.ancientlanka@gmail.com" class="c-sub">info.ancientlanka@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <!-- Office Locations -->
+                        <div class="contact-card">
+                            <div class="c-icon"><i class="fas fa-map-marked-alt"></i></div>
+                            <div class="c-details">
+                                <span class="c-label">Agency Headquarters</span>
+                                <span class="c-val">No. 45, Temple Road, Colombo 03, Sri Lanka</span>
+                                <span class="c-sub">Branch: No. 12, Queens Road, Kandy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Interactive Booking Form -->
+                <div class="booking-form-wrapper">
+                    <div class="form-header">
+                        <h3><i class="fas fa-compass"></i> Request a Custom Quote</h3>
+                        <p>Fill out this form and receive a personalized itinerary and price quote within 1 hour.</p>
+                    </div>
+
+                    <form id="booking-form" class="booking-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="form-name"><i class="fas fa-user"></i> Full Name *</label>
+                                <input type="text" id="form-name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-email"><i class="fas fa-envelope"></i> Email Address *</label>
+                                <input type="email" id="form-email" placeholder="john@example.com" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="form-phone"><i class="fas fa-phone"></i> WhatsApp / Phone *</label>
+                                <input type="tel" id="form-phone" placeholder="+1 234 567 8900" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-destination"><i class="fas fa-landmark"></i> Interested Place / Tour *</label>
+                                <select id="form-destination" required>
+                                    <option value="" disabled selected>Select Destination or Package</option>
+                                    <optgroup label="Ancient Places">
+                                        <option value="Sigiriya Lion Rock">Sigiriya Lion Rock Citadel</option>
+                                        <option value="Anuradhapura Sacred Kingdom">Anuradhapura Sacred Kingdom</option>
+                                        <option value="Polonnaruwa Medieval City">Polonnaruwa Medieval City</option>
+                                        <option value="Dambulla Cave Temple">Dambulla Golden Cave Temple</option>
+                                        <option value="Temple of the Tooth Kandy">Temple of the Sacred Tooth (Kandy)</option>
+                                        <option value="Galle Dutch Fort">Galle Dutch Maritime Fort</option>
+                                    </optgroup>
+                                    <optgroup label="Waterfalls">
+                                        <option value="Diyaluma Waterfall">Diyaluma Falls & Infinity Pools</option>
+                                        <option value="Dunhinda Waterfall">Dunhinda Smoky Falls</option>
+                                        <option value="Ravana Falls Ella">Ravana Falls & Caves (Ella)</option>
+                                        <option value="Bambarakanda Waterfall">Bambarakanda Tallest Waterfall</option>
+                                    </optgroup>
+                                    <optgroup label="Rainforests & Wildlife">
+                                        <option value="Sinharaja Rainforest">Sinharaja Virgin Rain Forest</option>
+                                        <option value="Knuckles Mountain Range">Knuckles Conservation Forest</option>
+                                        <option value="Horton Plains & Worlds End">Horton Plains & World's End</option>
+                                        <option value="Yala Wildlife Safari">Yala Leopard Safari</option>
+                                    </optgroup>
+                                    <optgroup label="Multi-Day Packages">
+                                        <option value="7-Day Royal Kingdoms & Heritage Trail">7-Day Royal Kingdoms & Heritage Trail</option>
+                                        <option value="5-Day Cascades & Cloud Forest Trek">5-Day Cascades & Cloud Forest Trek</option>
+                                        <option value="10-Day Grand Ceylon Signature Expedition">10-Day Grand Ceylon Signature Expedition</option>
+                                        <option value="Custom Tailored Tour">Custom Tailored Multi-Day Tour</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="form-date"><i class="fas fa-calendar-alt"></i> Estimated Travel Date</label>
+                                <input type="date" id="form-date">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-guests"><i class="fas fa-users"></i> Number of Guests</label>
+                                <select id="form-guests">
+                                    <option value="1 Person (Solo Traveler)">1 Person (Solo Traveler)</option>
+                                    <option value="2 Persons (Couple)" selected>2 Persons (Couple)</option>
+                                    <option value="3-5 Persons (Small Group/Family)">3-5 Persons (Small Group/Family)</option>
+                                    <option value="6+ Persons (Large Group)">6+ Persons (Large Group)</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="form-notes"><i class="fas fa-comment-dots"></i> Special Requirements / Requests</label>
+                            <textarea id="form-notes" rows="3" placeholder="Tell us about your interests, hotel preferences, dietary requirements, or special spots you want to visit..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-submit-gold" id="form-submit-btn">
+                            <span><i class="fas fa-paper-plane"></i> Send Booking Inquiry</span>
+                        </button>
+                    </form>
+
+                    <!-- Form Success Message Box -->
+                    <div id="form-success" class="form-success-box hidden">
+                        <div class="success-icon"><i class="fas fa-check-circle"></i></div>
+                        <h4>Inquiry Received Successfully!</h4>
+                        <p>Thank you for choosing Ceylon Heritage Expeditions. Our specialist will contact you at your email and WhatsApp within 15 minutes.</p>
+                        <a href="https://wa.me/94771234567" target="_blank" class="btn btn-success-whatsapp">
+                            <i class="fab fa-whatsapp"></i> Chat on WhatsApp Immediately
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============================================
+         INTERACTIVE DETAIL MODAL / LIGHTBOX
+    =============================================== -->
+    <div class="modal-overlay" id="detail-modal">
+        <div class="modal-card">
+            <button class="modal-close" id="modal-close" aria-label="Close Details">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-content" id="modal-content">
+                <!-- Dynamically Injected Content -->
+            </div>
+        </div>
+    </div>
+
+    <!-- ==============================================
+         FOOTER
+    =============================================== -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-col footer-brand-col">
+                <div class="footer-logo">
+                    <i class="fas fa-crown"></i>
+                    <span>ANCIENT PLACES OF SRI LANKA</span>
+                </div>
+                <p class="footer-desc">
+                    Your premier licensed travel authority for discovering the ancient civilizations, holy shrines, cascading waterfalls, and protected cloud forests of Ceylon.
+                </p>
+                <div class="footer-socials">
+                    <a href="https://wa.me/94771234567" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="mailto:bookings.ancientlanka@gmail.com" title="Email Us"><i class="fas fa-envelope"></i></a>
+                    <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Ancient Wonders</h4>
+                <ul>
+                    <li><a href="#destinations">Sigiriya Rock Fortress</a></li>
+                    <li><a href="#destinations">Anuradhapura Kingdom</a></li>
+                    <li><a href="#destinations">Polonnaruwa Medieval City</a></li>
+                    <li><a href="#destinations">Dambulla Cave Temple</a></li>
+                    <li><a href="#destinations">Temple of the Tooth Kandy</a></li>
+                    <li><a href="#destinations">Galle Dutch Fortress</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Nature & Waterfalls</h4>
+                <ul>
+                    <li><a href="#destinations">Diyaluma Clifftop Falls</a></li>
+                    <li><a href="#destinations">Dunhinda Smoky Waterfall</a></li>
+                    <li><a href="#destinations">Ravana Falls & Caves</a></li>
+                    <li><a href="#destinations">Sinharaja Virgin Rainforest</a></li>
+                    <li><a href="#destinations">Knuckles Mountain Range</a></li>
+                    <li><a href="#destinations">Horton Plains & World's End</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Agency Contacts</h4>
+                <p><i class="fas fa-phone-alt"></i> <strong>+94 77 123 4567</strong></p>
+                <p><i class="fab fa-whatsapp"></i> <strong>+94 77 123 4567 (WhatsApp)</strong></p>
+                <p><i class="fas fa-envelope"></i> <strong>bookings.ancientlanka@gmail.com</strong></p>
+                <p><i class="fas fa-map-marker-alt"></i> No. 45, Temple Road, Colombo 03</p>
+                <p class="tourist-helpline"><i class="fas fa-info-circle"></i> Tourist Police Helpline: <strong>1912</strong></p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-inner">
+                <p>&copy; 2026 ANCIENT PLACES OF SRI LANKA • Ceylon Heritage Expeditions. All rights reserved.</p>
+                <p>Licensed by Sri Lanka Tourism Development Authority (SLTDA).</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification Container -->
+    <div id="toast" class="toast hidden"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
